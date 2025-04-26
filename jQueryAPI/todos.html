@@ -48,9 +48,7 @@
                     $('#todo-list').append('<li>' + data[i].id + " - " +  data[i].title + '</li>');
                 }
 
-                // data.forEach(function(todo) {
-                //     $('#todo-list').append('<li>' + todo.title + '</li>');
-                // });
+               
             });
 
             $.get('https://jsonplaceholder.typicode.com/users', function(data) {
